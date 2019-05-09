@@ -4,7 +4,7 @@
 待更新文件(
 
 CallProcess.zip(2c763c7161d677c1eb99b4b3702ecba7)
-CallShielder.7z(5447145481a041bf6754ce126b12ae8a)
+CallShielder.7z(a77ab3f2acb1908970871e8bea945e19)
 CallShielder.apk(3507a3ef1b60c779b5ed1586502cefe)
 CallShielder_20181114_17.40.7z(f2be434896c8c89d4945a9ae9ea934d5)
 CallShielder_20190111_17.17.zip(794c90d99be52926384b2b2a213346f7)
