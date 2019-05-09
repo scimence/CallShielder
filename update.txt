@@ -1,4 +1,4 @@
 ﻿
-version(20190509)
+version(201905091218)
 url(https://scimence.gitee.io/CallShielder/CallShielder.apk)
 msg(CallShielder由scimence提供)
