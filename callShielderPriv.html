@@ -1,0 +1,52 @@
+﻿
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Call Shielder 隐私权政策</title>
+</head>
+
+<body>
+<h1>
+一、应用基本功能
+</h1>
+<p>
+安卓应用，来电屏蔽（根据设置规则进行来电屏蔽） 
+</p>
+<p>
+原理：非联系人、白名单中的号码，自动接听3秒并自动挂断（打骚扰电话的人会产生话费）
+</p>
+
+<br>
+
+<h1>
+二、应用需要请求的隐私权限
+</h1>
+<p>
+android.permission.READ_PHONE_STATE
+</p>
+<p>
+android.permission.READ_CONTACTS
+</p>
+<br>
+
+<h1>
+三、如何收集和使用隐私权限
+</h1>
+<p>
+1、READ_PHONE_STATE。用于获取TELEPHONY_SERVICE，对电话事件(响铃、接听、挂断)，信息实时显示至应用主界面。
+</p>
+<p>
+phoneManager = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
+</p>
+<p>
+2、READ_CONTACTS。用于读取手机通讯录中的联系人号码信息（联系人号码不屏蔽）；根据用户自定义规则，对骚扰号码进行屏蔽。
+</p>
+<p>
+3、相关数据信息仅显示至CallShield应用上，供用户查看和使用。
+</p>
+
+</body>
+
+
+
+
